@@ -67,9 +67,9 @@ Security Groups and Route Tables were configured enforcing the principle of leas
 
 ![Public Route Table](route-table.png)
 
-**Egress Validation (Ping via NAT Gateway)**
+**Private Subnet Isolation (Ping Drop)**
 
-![Egress Validation](ping-success.png)
+![Private Subnet Isolation](ping-isolation.png)
 
 ---
 
@@ -112,6 +112,6 @@ Os Security Groups e Tabelas de Rotas aplicam estritamente o princípio do menor
 
 ![Tabela de Rotas Pública](route-table.png)
 
-**Validação de Egress (Ping via NAT Gateway)**
+**Isolamento da Sub-rede Privada (Ping Falhou)**
 
-![Validação de Egress](ping-success.png)
+![Isolamento da Sub-rede Privada](ping-isolation.png)
